@@ -168,7 +168,7 @@ public func routes(_ router: Router) throws {
         }
         
         
-        let mirrorUrl = "http://68.183.65.138:5500\(mode)/\(x)/\(y)/\(z)/\(crossZ)?script=\(script)"
+        let mirrorUrl = "http://104.167.196.12:5500\(mode)/\(x)/\(y)/\(z)/\(crossZ)?script=\(script)"
         
         return request.redirect(to: mirrorUrl)
     }
