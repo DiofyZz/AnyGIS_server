@@ -11,7 +11,7 @@ class ImageProcessor {
     
     // My DigitalOcean droplet with Image processing service
     //let host = "http://localhost:5000/"
-    let host = "http://mapshoter-container:5000/"
+    let host = "http://mapshoter-container:3000/"
     
     
     func attachRow(tilesUrl: [String], req: Request) throws -> Future<Response> {
