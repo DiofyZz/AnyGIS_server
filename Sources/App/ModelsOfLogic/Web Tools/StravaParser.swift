@@ -10,7 +10,7 @@ import Vapor
 
 class StravaParser {
     
-    private let cookieExtractorApi = "http://mapshoter-container:5050/StravaAuth/"
+    private let cookieExtractorApi = "http://anygis-net:5050/StravaAuth/"
 //    private let cookieExtractorApi = "http://localhost:4000/StravaAuth/"
     
     
