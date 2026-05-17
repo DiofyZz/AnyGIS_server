@@ -168,7 +168,7 @@ public func routes(_ router: Router) throws {
         }
         
         
-        let mirrorUrl = "http://anygis-net:5500\(mode)/\(x)/\(y)/\(z)/\(crossZ)?script=\(script)"
+        let mirrorUrl = "http://mapshoter-container:5000\(mode)/\(x)/\(y)/\(z)/\(crossZ)?script=\(script)"
         
         return request.redirect(to: mirrorUrl)
     }
